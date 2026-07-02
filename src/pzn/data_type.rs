@@ -19,6 +19,13 @@ mod data_type_test {
      */
     #[test]
     fn data_type() {
-
+		
+		let a: i32 = 10;
+		println!("{}", a);
+		
+		let b: f64 = 12.5;
+		println!("{}", b);
     }
+	
+	
 }
