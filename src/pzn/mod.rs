@@ -5,3 +5,8 @@ mod data_type;
 mod data_type_convertion;
 mod numeric_operator;
 mod augmented_assignment;
+mod boolean;
+mod comparison_operators;
+mod boolean_operators;
+mod char_type;
+mod tuple;
