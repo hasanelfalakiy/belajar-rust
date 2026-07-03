@@ -10,3 +10,4 @@ mod comparison_operators;
 mod boolean_operators;
 mod char_type;
 mod tuple;
+mod array;
