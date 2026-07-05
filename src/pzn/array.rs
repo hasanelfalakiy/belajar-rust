@@ -43,7 +43,15 @@ mod array_test {
 		saat membuat array, kita bisa menggunakan tipe data apapun
 		termasuk array itu sendiri (array didalam array)
 		*/
+		let matrix: [[i32; 2]; 2] = [
+			[1, 2],
+			[3, 4]
+		];
 		
-		
+		println!("{:?}", matrix);
+		println!("{}", matrix[0][0]);
+		println!("{}", matrix[0][1]);
+		println!("{}", matrix[1][0]);
+		println!("{}", matrix[1][1]);
 	}
 }
