@@ -11,3 +11,5 @@ mod boolean_operators;
 mod char_type;
 mod tuple;
 mod array;
+mod constant;
+mod variable_scope;
